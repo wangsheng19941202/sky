@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0}
+.header-top-container,#banner,.goods-container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.advertise{
+    height:50px;
+}
+.header-top-home{
+    float: left;
+}
+
+.header-top a,.header-top p{
+    line-height: 40px;
+    color:#333333;
+}
+.header-top .header-top-register:hover{
+    color: red;
+}
+.header-top .header-top-login{
+    color: red;
+}
+.header-top-menu{
+    float: right;
+}
+.header-top-menu li{
+    float:left;
+    padding-left:22px;
+
+}
+.header-top{
+    height: 40px;
+    background-color:#F8F8F8;
+    border-bottom:1px solid #EBEBEB;
+}
+.header-search-container{
+    min-width: 1200px;
+    background: white;
+}
+.search-container{
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+.header-search-logo,.header-search-content{
+    float: left;
+}
+.header-search-code{
+    float: right;
+    width: 275px;
+    position: relative;
+}
+.hidden-image{
+    display: block;
+}
+.hidden-image>img{
+    width:112px;
+}
+
+.hidden-image{
+    position: absolute;
+    top:195px;
+    right:100px;
+}
+.header-search-content{
+    width:490px;
+    height: 40px;
+    text-align: center;
+    padding:25px 50px;
+}
+.header-search-content>input:first-child{
+    width:430px;
+    height: 40px;
+    border:2px solid #fb3434;
+    border-radius:5px 0 0 5px;
+    box-sizing:border-box;
+    float: left;
+    outline: none;
+    padding-left:10px;
+}
+.header-search-content>input:last-child{
+    width: 60px;
+    height: 40px;
+    background:#fb3434;
+    border-radius:0 5px 5px 0;
+    float:left;
+    padding:5px 10px;
+    box-sizing:border-box;
+    outline: none;
+}
+section{
+    background-color: #fe6d65;
+}
+section>nav{
+    height: 50px;
+    background-color:#fb3434;
+    overflow: hidden;
+    z-index: 999;
+}
+.anotherNav{
+    /*background-color:green;*/
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/*.section>.nav>.main-nav-container{*/
+    /*float:left;*/
+/*}*/
+.main-nav-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+
+}
+.main-nav-container>li{
+    float: left;
+    width: 10%;
+    height: 50px;
+    background-color:#fb3434;
+    color:yellow;
+    text-align: center;
+    line-height: 50px;
+}
+.main-nav-container>li:hover{
+    background: yellow;
+    color:black;
+}
+.main-goods-list{
+    background-color:#F6F6F6;
+    height:768px;
+}
+.advertise-bar{
+    height: 80px;
+}
+.main-goods-list>.goods-container {
+    width: 1200px;
+    margin-left: 116px;
+}

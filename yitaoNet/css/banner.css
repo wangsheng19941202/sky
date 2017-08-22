@@ -1,0 +1,151 @@
+section{
+    width: 100%;
+    position: absolute;
+}
+#big-banner{
+    overflow: hidden;
+    width: 750px;
+    height: 340px;
+    margin: 0 auto;
+    position: relative;
+    /*float:left;*/
+}
+#bannernavlast{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left:-50px;
+}
+#bannernavlast>li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px ;
+    background: #cccccc;
+    color: white;
+    border-radius:50% ;
+}
+.btnleft{
+    width: 60px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top:-40px;
+    font-size: 60px;
+    background:rgba(0 0 0 0.6);
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    /*display: none;*/
+}
+.btnlright{
+    width: 60px;
+    height: 80px;
+    line-height:80px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top:-40px;
+    font-size: 60px;
+    background:rgba(0 0 0 0.6);
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    /*display: none;*/
+}
+.btnleft{
+    left: 20px;
+}
+.btnlright{
+    right: 20px;
+}
+#bannerimglast{
+    width: 8000px;
+}
+#bannerimglast>li{
+    float: left;
+}
+/*#bannerimglast>.active{*/
+/**/
+/*}*/
+#bannernavlast>.navactive{
+    background: yellow;
+    display: block;
+}
+#small-banner{
+    /*float:left;*/
+    width: 225px;
+    height: 340px;
+    position:absolute;
+    top: 0;
+    overflow:hidden;
+}
+
+#sbannerimglast{
+    width:2000px;
+}
+#sbannerimglast>li{
+    float: left;
+}
+#banner-right{
+    width: 225px;
+    height: 340px;
+    background: white;
+    float:right;
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.banner-nav{
+    width: 225px;
+    height:170px;
+    overflow: hidden;
+}
+.header-images{
+    width: 70px;
+    height: 70px;
+    background:url("../images/header/TB1oaisOFXXXXatXVXXXXXXXXXX-70-70.png");
+    margin: 5px  auto;
+
+}
+.header-list{
+    width:225px;
+    height:90px;
+    text-align: center;
+}
+.header-btn{
+    width: 178px;
+    margin-top:20px;
+    margin-left:22px;
+    /*border-bottom: 1px solid #EEEEEE;*/
+}
+.header-list p{
+   width:86px;
+    height: 28px;
+    border: 1px solid red;
+    color: red;
+    background: white;
+    line-height: 28px;
+    border-radius: 5px;
+}
+.header-list p:hover{
+    color:white;
+    background: red;
+}
+.btn-left{
+    float: left;
+}
+.btn-right{
+    float: right;
+}
+.banner-phone{
+    text-align: center;
+    padding-top:10px;
+}
+.banner-phone-top{
+    margin-bottom:20px;
+}
